@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    color: orangered;
+    background-color: rgb(29, 33, 51);
+}
+header{
+    height: 500px;
+    
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    
+    margin: 20px;
+    margin-top: 0;
+    
+}
+.left-section{
+    
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    
+
+
+}
+.company-name:hover{
+    color: rgb(247, 12, 208);
+}
+.middle-section{
+    
+    width: 55%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+a{  
+    font-size: 20px;
+    margin: 1px;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    line-height: 200px;
+    margin-left: 30px;
+    
+}
+.navs{
+    margin-left: 100px;
+}
+.right-section{
+    background-color: blue;
+    width: 15%;
+}
+.whole-section{
+    width: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 40px;
+    display: inline-block;
+}
+.car-image{
+    width: 300px;
+    border-radius: 5px;
+    display: inline-block;
+   
+
+}
+.car-name{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    width: 300px;
+    color: orangered;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.car-name:hover{
+    opacity: 0.7;
+}
+.about-car{
+    width: 300px;
+    margin-top: 5px;
+    
+}
+.car-price{
+    text-align: center;
+    cursor: pointer;
+
+}
+.car-price:hover{
+    opacity: 0.7;
+}
